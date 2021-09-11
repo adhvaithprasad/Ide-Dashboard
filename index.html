@@ -1,0 +1,48 @@
+<!DOCtype html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js">
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js">
+	</script>
+  	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js">
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-storage.js">
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js">
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js">
+	</script>
+</head>
+<body>
+<nav>
+  <div class="user" >
+    <img id="user-img"/>
+    <p id="user-name"></p>
+    
+  </div>
+
+  <a href="">Projects</a>
+  <a href="">Profile</a>
+  <a href="">Issues</a>
+  <a href="" style="margin-top:40px;">About</a>
+<a href="">copyright</a>
+<a href="">help</a>
+<button onclick="logout()" class="logout">logout</button>
+
+
+</nav>
+
+<div class="chat-content" style="flex: 1;">
+<div class="header-project"><h2>Recent commits</h2></div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
